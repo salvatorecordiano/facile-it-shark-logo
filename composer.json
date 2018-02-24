@@ -1,0 +1,24 @@
+{
+    "name": "salvatorecordiano/facile-it-shark-logo",
+    "description": "Display Facile.it Shark logo",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salvatore Cordiano",
+            "email": "github@parallel.it"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9|^7.0.0",
+        "composer-plugin-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Facile\\Cbr\\Shark\\": "src"
+        }
+    },
+    "extra": {
+        "class": "Facile\\Cbr\\Shark\\SharkLogo"
+    }
+}
